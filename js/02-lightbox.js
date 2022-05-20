@@ -15,5 +15,14 @@ function createImgCards (cards){
     
 }).join('');
 };
+var lightbox = new SimpleLightbox('.gallery a', 
+{ 
+    
+    captionsData: 'alt',
+    captionDelay: 250,
+    captionPosition: 'bottom',
+    captionClass: "center" });
 
-console.log(galleryItems);
+// var lightbox = $('.gallery a').simpleLightbox({ /* options */ });
+
+// console.log(galleryItems);
